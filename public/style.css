@@ -1,0 +1,145 @@
+body {
+    background-image: url(abstract-digital-grid-black-background.jpg);
+    font-family: Arial, sans-serif;
+    margin: 70px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.input-group select, .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: #045c6e !important;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1; 
+}
+.input-section button {
+    background-color: #e9594b;
+    transition: background-color 0.3s ease;
+}
+
+
+.expenses-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #02424f;
+    color: #fff;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e9594b;
+}
+.chart-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.chart-section canvas {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-chart-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #045c6e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-chart-btn:hover {
+    background-color: #02424f;
+}
+/* Your existing CSS styles */
+
+.reminders-section {
+    margin-top: 20px;
+}
+
+#reminders-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reminders-list li {
+    margin-bottom: 10px;
+}
